@@ -6,11 +6,6 @@ RUN apt-get update && \
     apt-get install -y postgresql postgresql-contrib && \
     rm -rf /var/lib/apt/lists/*
 
-# Set environment variables
-ENV POSTGRES_DB=mydatabase
-ENV POSTGRES_USER=myuser
-ENV POSTGRES_PASSWORD=mypassword
-
 # Expose PostgreSQL port
 EXPOSE 5432
 

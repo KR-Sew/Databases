@@ -1,4 +1,4 @@
-FROM debian:{{ env.variant }}-slim
+FROM debian:12.5-slim
 
 # explicitly set user/group IDs
 RUN set -eux; \
@@ -131,10 +131,10 @@ RUN set -ex; \
 			apt-get build-dep -y postgresql-common pgdg-keyring; \
 			apt-get source --compile postgresql-common pgdg-keyring; \
 			_update_repo; \
-{{ if .major == 13 then ( -}}
+# {{ if .major == 13 then ( -}}
 # we need DEBIAN_FRONTEND on postgresql-13 for slapd ("Please enter the password for the admin entry in your LDAP directory."); see https://bugs.debian.org/929417
 			DEBIAN_FRONTEND=noninteractive \
-{{ ) else "" end -}}
+# {{ ) else "" end -}}
 			apt-get build-dep -y "postgresql-$PG_MAJOR=$PG_VERSION"; \
 			apt-get source --compile "postgresql-$PG_MAJOR=$PG_VERSION"; \
 			\

@@ -4,7 +4,7 @@ services:
   db:
     build:
       context: ./docker/
-      dockerfile: Dockerfile
+      # dockerfile: Dockerfile
     container_name: my_postgresql
     environment:
       POSTGRES_DB: ${POSTGRES_DB}

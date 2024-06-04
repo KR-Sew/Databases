@@ -1,4 +1,4 @@
-version: '3.8'
+# version: '3.8'
 
 services:
   db:
@@ -7,10 +7,10 @@ services:
       dockerfile: Dockerfile
     env_file:
       - .env
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-      - ./postgresql.conf:/etc/postgresql/postgresql.conf
-      - ./initdb:/docker-entrypoint-initdb.d
+    # volumes:
+    #   - pgdata:/var/lib/postgresql/data
+    #   - ./postgresql.conf:/etc/postgresql/postgresql.conf
+    #   - ./initdb:/docker-entrypoint-initdb.d
     ports:
       - "5432:5432"
     healthcheck:

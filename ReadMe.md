@@ -6,7 +6,7 @@
 
 ### (PostgreSQL & MS SQL Server)
 
-### This repository contains a set of PowerShell and Bash scripts designed for database administrators (DBAs), DevOps engineers, and system administrators to automate database maintenance, backup, and monitoring. These scripts support PostgreSQL and Microsoft SQL Server (MSSQL), working across Windows and Linux environments
+#### This repository contains a set of PowerShell and Bash scripts designed for database administrators (DBAs), DevOps engineers, and system administrators to automate database maintenance, backup, and monitoring. These scripts support PostgreSQL and Microsoft SQL Server (MSSQL), working across Windows and Linux environments
 
 ### 🚀 Features
 

@@ -12,7 +12,7 @@
 ### 🚀 Features
 
 - ✅ Database Backup & Restore → Automate full/differential backups and scheduled restores.
-- ✅ User & Role Management → Create, modify, and remove users, roles, and permissions. 
+- ✅ User & Role Management → Create, modify, and remove users, roles, and permissions.
 - ✅ Performance Tuning → Index optimization, query performance monitoring, and logging.
 - ✅ Replication & High Availability → Automate replication setup and health checks.
 - ✅ Cross-Platform Support → PowerShell for Windows, Bash for Linux/macOS.

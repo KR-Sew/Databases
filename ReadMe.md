@@ -28,8 +28,6 @@
  │   ├── restore-mssql.ps1
  │   ├── optimize-mssql.sql
  │   ├── user-management.ps1
- ├── MySQL/
- |   ├──
 📂 Monitoring/
  ├── check-db-status.ps1
  ├── query-performance.sh

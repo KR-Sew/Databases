@@ -1,5 +1,5 @@
 
-## 🗄️ Database Management Scripts
+# 🗄️ Database Management Scripts
 
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white&logoSize=auto&labelColor=5197e1)](https://www.postgresql.org/)
 [![MS SQL](https://custom-icon-badges.demolab.com/badge/SQL_Server-Microsoft-blue?style=flat&logo=microsoft-sql-server&logoColor=red&logoSize=auto&labelColor=e1e5ee)](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)

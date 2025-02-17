@@ -9,3 +9,6 @@ This repository contains PowerShell and Bash scripts designed to help DBAs and D
 - ✅ [User & Role Management](./UAC/) → Automate user access control.
 - ✅ [Backup & Restore](./Backup/) → Scheduled backups with retention policies.
 - ✅ [Performance Tuning](./Perf/) → Optimize indexes, analyze query performance.
+
+---
+🔙 [back to main menu DevTools](../)

@@ -9,3 +9,6 @@ This repository provides automated scripts to simplify MySQL and MariaDB server 
 - ✅ [User & Access Control](./UAC/) → Automate user creation and permission settings.
 - ✅ [Backup & Restore](./Backup/) → Automate MySQL database backups with retention.
 - ✅ [Performance Optimization](./Perf/) → Tune queries and optimize indexes.
+
+---
+🔙 [back to main menu DevTools](../)

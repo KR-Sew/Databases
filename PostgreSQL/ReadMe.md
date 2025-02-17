@@ -9,3 +9,7 @@ This repository provides PostgreSQL automation scripts for DBAs, developers, and
 - ✅ [User & Permission Management](./UAC/) → Manage users, roles, and privileges.
 - ✅ [Backup & Restore](./Backup/) → Automate full & incremental backups.
 - ✅ [Query Optimization](./Perf/) → Analyze and optimize queries with EXPLAIN ANALYZE.
+
+---
+
+🔙 [back to main menu DevTools](../)

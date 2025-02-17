@@ -17,3 +17,9 @@ This repository contains a set of PowerShell and Bash scripts designed for datab
 - ✅ Performance Tuning → Index optimization, query performance monitoring, and logging.
 - ✅ Replication & High Availability → Automate replication setup and health checks.
 - ✅ Cross-Platform Support → PowerShell for Windows, Bash for Linux/macOS.
+
+### 🗄️ Available Database Engines
+
+- 🔹[MS SQL Server](./MS%20SQL%20script/) – Scripts for installing, managing, backing up, and optimizing Microsoft SQL Server on Windows, Linux, and Docker.
+- 🐘 [PostgreSQL](./PostgreSQL/) – Automation scripts for PostgreSQL installation, user management, backup, and performance tuning.
+- 🐬 [MySQL & MariaDB](./MS%20SQL%20script/) – Scripts for deploying, managing, securing, and optimizing MySQL/MariaDB databases.

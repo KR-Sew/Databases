@@ -20,6 +20,6 @@ This repository contains a set of PowerShell and Bash scripts designed for datab
 
 ### 🗄️ Available Database Engines
 
-- 🔹[MS SQL Server](./MS%20SQL%20script/) – Scripts for installing, managing, backing up, and optimizing Microsoft SQL Server on Windows, Linux, and Docker.
-- 🐘 [PostgreSQL](./PostgreSQL/) – Automation scripts for PostgreSQL installation, user management, backup, and performance tuning.
-- 🐬 [MySQL & MariaDB](./MS%20SQL%20script/) – Scripts for deploying, managing, securing, and optimizing MySQL/MariaDB databases.
+- <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="20"> [MS SQL Server](./MS%20SQL%20script/) – Scripts for installing, managing, backing up, and optimizing Microsoft SQL Server on Windows, Linux, and Docker.
+- <img src="./Assets/pics/icons8-postgresql-48.svg" width="20"> [PostgreSQL](./PostgreSQL/) – Automation scripts for PostgreSQL installation, user management, backup, and performance tuning.
+- <img src="./Assets/pics/icons8-mysql-48.svg" width="20"> [MySQL & MariaDB](./MS%20SQL%20script/) – Scripts for deploying, managing, securing, and optimizing MySQL/MariaDB databases.

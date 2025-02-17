@@ -4,8 +4,8 @@ This repository provides automated scripts to simplify MySQL and MariaDB server 
 
 ## 🚀 Features
 
-- ✅ Automated MySQL/MariaDB Installation (Linux, Windows, Docker)
-- ✅ Database & Table Management → Create, drop, manage tables.
-- ✅ User & Access Control → Automate user creation and permission settings.
-- ✅ Backup & Restore → Automate MySQL database backups with retention.
-- ✅ Performance Optimization → Tune queries and optimize indexes.
+- ✅ [Automated MySQL/MariaDB Installation](./Install/) (Linux, Windows, Docker)
+- ✅ [Database & Table Management](./Manage/) → Create, drop, manage tables.
+- ✅ [User & Access Control](./UAC/) → Automate user creation and permission settings.
+- ✅ [Backup & Restore](./Backup/) → Automate MySQL database backups with retention.
+- ✅ [Performance Optimization](./Perf/) → Tune queries and optimize indexes.

@@ -11,4 +11,4 @@ This repository contains PowerShell and Bash scripts designed to help DBAs and D
 - ✅ [Performance Tuning](./Perf/) → Optimize indexes, analyze query performance.
 
 ---
-🔙 [back to main menu DevTools](../)
+🔙 [back to main menu Databases](../)

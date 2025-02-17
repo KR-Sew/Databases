@@ -11,4 +11,4 @@ This repository provides automated scripts to simplify MySQL and MariaDB server 
 - ✅ [Performance Optimization](./Perf/) → Tune queries and optimize indexes.
 
 ---
-🔙 [back to main menu DevTools](../)
+🔙 [back to main menu Databases](../)

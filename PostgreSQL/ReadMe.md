@@ -12,4 +12,4 @@ This repository provides PostgreSQL automation scripts for DBAs, developers, and
 
 ---
 
-🔙 [back to main menu Databases](../)
+🔙 [back to Databases repo](../)

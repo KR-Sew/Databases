@@ -25,4 +25,5 @@ This repository contains a set of PowerShell and Bash scripts designed for datab
 - <img src="./Assets/pics/icons8-mysql-48.svg" width="20"> [MySQL & MariaDB](./MS%20SQL%20script/) – Scripts for deploying, managing, securing, and optimizing MySQL/MariaDB databases.
 
 ---
+
 🔙 [back to Repos](https://github.com/KR-Sew?tab=repositories)

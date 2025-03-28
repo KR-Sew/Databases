@@ -1,6 +1,5 @@
 # <img src="../Assets/pics/MongoDB.svg" width="35" alt="MS SQL server management scripts"> NoSQL Databases Management Scripts
 
-
 This repository contains PowerShell and Bash scripts designed to help DBAs and DevOps engineers automate MS SQL Server tasks, including database provisioning, user management, backup & restore, performance tuning, and security hardening.
 
 ## 🚀 Features

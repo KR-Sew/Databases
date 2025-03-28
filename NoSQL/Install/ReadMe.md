@@ -8,6 +8,8 @@ This repository contains PowerShell and Bash scripts designed to help DBAs and D
 ## 🚀 Features
 
 - 📂 [Automated SQL Server Installation](./Install/) (Windows, Linux, Docker)
+- [Install MongoDB on Debian](./inst_mongo_debian.sh) - includes:
+  Error Handling, Root previlages, Quiet mode, Dynamic Debian code detection, Error checking for gpt key
 
 ---
 

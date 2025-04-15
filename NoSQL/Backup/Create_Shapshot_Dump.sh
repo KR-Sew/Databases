@@ -3,7 +3,7 @@
 # Function to display usage
 usage() {
     echo "Usage: $0 -u <MongoDB URI> -d <Database Name> -o <Output Directory>"
-    echo "Example: $0 -u mongodb+srv://username:password@cluster0.mongodb.net -d myDatabase -o /path/to/backup"
+    echo "Example: $0 -u mongodb+srv://<username>:<password>@cluster0.mongodb.net -d myDatabase -o /path/to/backup"
     exit 1
 }
 

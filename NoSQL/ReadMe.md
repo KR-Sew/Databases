@@ -5,7 +5,7 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains PowerShell and Bash scripts designed to help DBAs and DevOps engineers automate MongoDB NoSQL tasks, including database provisioning, user management, backup & restore, performance tuning, and security hardening.
+This repository contains scripts designed to help DBAs and DevOps engineers automate MongoDB NoSQL tasks, including database provisioning, user management, backup & restore, performance tuning, and security hardening.
 
 ## 🚀 Features
 

@@ -4,6 +4,15 @@ These are two scripts that solving logs redo issues like `#ib_redo1` `#ib_redo2`
 
 ## 🚀 Description
 
+**How to run**:
+
+- First run 
+
+   ```bash
+    chmod +x mysql-step1-inspect-backup.sh # mark the script executable
+    sudo ./mysql-step1-inspect-backup.sh   # run with sudo elevation
+   ```
+
 ---
 
 🔙 [back to MySQL repo](../)

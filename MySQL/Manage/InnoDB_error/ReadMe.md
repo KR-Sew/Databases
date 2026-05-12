@@ -22,7 +22,7 @@ These are two scripts that solving logs redo issues like `#ib_redo1` `#ib_redo2`
     sudo ./mysql-step2-recover-dump-rebuild.sh
   ```
 
-- If the service `mysql` successfully **recoverd** and started and **dump** is created successfully, try to **rebuild**:
+- If the service `mysql` successfully **recovered**, started and **dump** is created successfully, try to **rebuild**:
   
   ```bash
     sudo ./mysql-step2-recover-dump-rebuild.sh --rebuild-after-dump

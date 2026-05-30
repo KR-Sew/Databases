@@ -13,7 +13,7 @@ This repository contains PowerShell and Bash scripts designed to help DBAs and D
 - [Install MongoDB on Debian](./inst_mongo_debian.sh) - includes:
   Error Handling, Root previlages, Quiet mode, Dynamic Debian code detection, Error checking for gpt key
 
-## 🚀 Updating/Installing on Windows/Linux:
+## 🚀 Updating/Installing Mongo Shell CLI and Mongo Atlas CLI on Windows/Linux:
 
 - 📂 [Update-MongoDBAtlasCli.ps](./Update-MongoDBAtlasCli.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
 - 📂 [Update-MongoShell.ps1](./Update-MongoShell.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Shell** on **Windows**.

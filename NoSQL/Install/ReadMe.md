@@ -7,7 +7,7 @@
 
 This repository contains PowerShell and Bash scripts designed to help DBAs and DevOps engineers automate MongoDB installation tasks.
 
-## 🚀 Features
+## 🚀 Installing MongoDB on Windows/Linux:
 
 - 📂 [Automated SQL Server Installation](./Install/) (Windows, Linux, Docker)
 - [Install MongoDB on Debian](./inst_mongo_debian.sh) - includes:

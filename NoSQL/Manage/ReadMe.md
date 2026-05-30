@@ -10,7 +10,7 @@ This repository contains scripts designed to help DBAs and DevOps engineers auto
 ## 🚀 Features
 
 - 📂 [Update-MongoDBAtlasCli.ps](./Update-MongoDBAtlasCli.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
-- 📂 [](./)
+- 📂 [Update-MongoShell.ps1](./Update-MongoShell.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Shell** on **Windows**.
 
 ---
 

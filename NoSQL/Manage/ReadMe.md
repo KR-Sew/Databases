@@ -9,7 +9,8 @@ This repository contains scripts designed to help DBAs and DevOps engineers auto
 
 ## 🚀 Features
 
-- 📂 [Database Management](./Manage/) → Create, drop, migrate databases.
+- 📂 [Update-MongoDBAtlasCli.ps](./Update-MongoDBAtlasCli.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
+- 📂 [](./)
 
 ---
 

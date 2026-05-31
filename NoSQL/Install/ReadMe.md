@@ -38,4 +38,6 @@ This repository contains PowerShell and Bash scripts designed to help DBAs and D
       sudo bash ./update-mongoShell.sh
    ```
 
+----
+
 🔙 [back to Databases repo](../)

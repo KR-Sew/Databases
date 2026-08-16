@@ -9,7 +9,7 @@ This repository contains scripts designed to help DBAs and DevOps engineers auto
 
 ## 🚀 Features
 
-- 📂 [Automated SQL Server Installation](./Install/) (Windows, Linux, Docker)
+- 📂 [Automated NoSQL Installation](./Install/) (Windows, Linux, Docker)
 - 📂 [Database Management](./Manage/) → Create, drop, migrate databases.
 - 📂 [User & Role Management](./UAC/) → Automate user access control.
 - 📂 [Backup & Restore](./Backup/) → Scheduled backups with retention policies.

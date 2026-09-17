@@ -5,13 +5,12 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains PowerShell and Bash scripts designed to help DBAs and DevOps engineers automate MongoDB installation tasks.
+This repository contains **PowerShell** and **Bash** scripts designed to help **DBAs** and **DevOps engineers** automate **MongoDB** installation tasks.
 
-## 🚀 Installing MongoDB on Windows/Linux:
+## 🚀 Installing `MongoDB` on **Windows/Linux**:
 
-- 📂 [Automated SQL Server Installation](./Install/) (Windows, Linux, Docker)
-- [Install MongoDB on Debian](./inst_mongo_debian.sh) - includes:
-  Error Handling, Root previlages, Quiet mode, Dynamic Debian code detection, Error checking for gpt key
+- 📂 [Install **MongoDB** on **Debian**](./inst_mongo_debian.sh) - includes:
+  **Error Handling**, **Root previlages**, **Quiet mode**, **Dynamic Debian** code detection, **Error checking** for gpt key
 
 ## 🚀 Updating/Installing Mongo Shell CLI and Mongo Atlas CLI on Windows/Linux:
 

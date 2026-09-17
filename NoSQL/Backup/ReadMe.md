@@ -5,11 +5,15 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains PowerShell and Bash scripts designed to help DBAs and DevOps engineers automate MongoDB backup & restore tasks.
+This repository contains scripts designed to help **DBAs** and **DevOps** engineers automate **MongoDB** backup & restore tasks.
 
 ## 🚀 Features
 
 - 📂 [Backup & Restore](./Backup/) → Scheduled backups with retention policies.
+    - [Backup cluster](./backup_cluster.sh)
+    - [Bacup **MongoDB**](./backup_mongodb.sh)
+    - [Create a **DB** snapshot](./Create_Snapshot_Dump.sh)
+    - [Create **LVM** cloud snapshot](./Create_SnapShot_LVM-Cloud.sh)
 
 ---
 

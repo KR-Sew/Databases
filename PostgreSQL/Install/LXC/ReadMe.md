@@ -38,17 +38,18 @@ For Internet access, a router/firewall can destination-NAT a public TCP port to 
 
 ## Environment used
 
-- LXD 5.21.6 LTS
-- Debian 13 (Trixie) VM
-- ZFS-backed LXD storage pool: `lxdpool`
+- **LXD 5.21.6 LTS**
+- **Debian 13** (Trixie) VM
+- **ZFS**-backed `LXD` storage pool: `lxdpool`
 - VM bridge: `lxdbr0-vm`
 - VM address: `10.10.205.101/24`
 - Gateway: `10.10.205.253`
-- PostgreSQL 18.6 from PGDG
+- **PostgreSQL 18.6** from PGDG
 - Database: `labdb`
 - Login role: `labuser`
 - DNS: `pg.lightcyber.ru`
-- TLS certificate: Let's Encrypt, issued through Selectel
+- TLS certificate: **Let's Encrypt**, issued through **Selectel** (in my case)
+  - You can use original cerficate isssued by **Let's Encrypt** using **Certbot** or **ACME**
 
 Adjust addresses, names and credentials for your own environment.
 

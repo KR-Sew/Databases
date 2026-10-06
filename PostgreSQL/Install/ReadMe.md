@@ -12,8 +12,8 @@ This repository provides PostgreSQL automation scripts for DBAs, developers, and
 
 ## 🚀 Features
 
-- [Docker installation](./Docker/) </p> Install **PostgreSQL** in a **Docker** container
-- [LXC/LXD installation](./LXC) </p> Install **PostgreSQL** in **LXC/LXD** container
+- [**`Docker` installation**](./Docker/) </p> Install **PostgreSQL** in a **Docker** container
+- [**`LXC/LXD` installation**](./LXC/ReadMe.md) </p> Install **PostgreSQL** in **LXC/LXD** container
 
 ---
 

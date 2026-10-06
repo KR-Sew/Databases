@@ -8,7 +8,7 @@
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white&logoSize=auto&labelColor=black)](https://www.gnu.org/software/bash/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A reproducible How-To for deploying PostgreSQL 18 inside a Debian 13 LXD virtual machine, enabling restricted remote access, enforcing TLS, and using a publicly trusted Let's Encrypt certificate.
+A reproducible **How-To** for deploying **PostgreSQL 18** inside a **Debian 13** `LXD` virtual machine, enabling restricted remote access, enforcing TLS, and using a publicly trusted **Let's Encrypt** certificate.
 
 ## Lab topology
 

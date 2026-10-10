@@ -1,7 +1,7 @@
 # PostgreSQL network/TLS settings used by this lab.
 # Merge these settings into /etc/postgresql/18/main/postgresql.conf.
 
-listen_addresses = 'localhost,10.10.205.101'
+listen_addresses = 'localhost,10.10.254.101'
 port = 5432
 
 ssl = on

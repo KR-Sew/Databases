@@ -225,7 +225,7 @@ Edit:
 Use:
 
 ```conf
-listen_addresses = 'localhost,10.10.205.101'
+listen_addresses = 'localhost,10.10.254.101'
 ssl = on
 ```
 
@@ -248,7 +248,7 @@ Expected listeners include:
 
 ```text
 127.0.0.1:5432
-10.10.205.101:5432
+10.10.254.101:5432
 [::1]:5432
 ```
 
@@ -261,8 +261,8 @@ Expected listeners include:
 For the lab:
 
 ```conf
-hostssl  labdb  labuser  10.10.205.0/24      scram-sha-256
-hostssl  labdb  labuser  10.100.100.108/32   scram-sha-256
+hostssl  labdb  labuser  10.10.254.0/24      scram-sha-256
+hostssl  labdb  labuser  10.10.101.108/32   scram-sha-256
 ```
 
 Use `hostssl`, not `host`, when remote connections must use TLS.
@@ -296,7 +296,7 @@ systemctl reload postgresql@18-main
 First prove basic routing/firewall connectivity:
 
 ```powershell
-Test-NetConnection 10.10.205.101 -Port 5432
+Test-NetConnection 10.10.254.101 -Port 5432
 ```
 
 Expected:
@@ -327,7 +327,7 @@ SSL Cipher   : TLS_AES_256_GCM_SHA384
 Now prove TLS is mandatory:
 
 ```powershell
-psql "host=10.10.205.101 port=5432 dbname=labdb user=labuser sslmode=disable"
+psql "host=10.10.254.101 port=5432 dbname=labdb user=labuser sslmode=disable"
 ```
 
 Expected failure:

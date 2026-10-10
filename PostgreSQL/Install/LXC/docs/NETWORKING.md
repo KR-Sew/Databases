@@ -3,21 +3,21 @@
 ## Lab networks
 
 ```text
-10.100.100.0/24    workstation/LAN VLAN
-10.10.205.0/24     LXD VM network
+10.10.101.0/24    workstation/LAN VLAN
+10.10.254.0/24     LXD VM network
 ```
 
 The PostgreSQL VM used:
 
 ```text
-IP      10.10.205.101/24
-Gateway 10.10.205.253
+IP      10.10.254.101/24
+Gateway 10.10.254.253
 ```
 
 The LXD host had:
 
 ```text
-lxdbr0-vm 10.10.205.253/24
+lxdbr0-vm 10.10.254.253/24
 ```
 
 The VM NIC was attached to the unmanaged Linux bridge:
@@ -36,7 +36,7 @@ Inside Debian it appeared as `enp5s0`.
 From Windows:
 
 ```powershell
-Test-NetConnection 10.10.205.101 -Port 5432
+Test-NetConnection 10.10.254.101 -Port 5432
 ```
 
 If this fails while PostgreSQL is listening on `10.10.205.101:5432`, troubleshoot routing and firewalls before changing PostgreSQL.

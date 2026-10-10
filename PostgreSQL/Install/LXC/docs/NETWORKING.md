@@ -39,14 +39,14 @@ From Windows:
 Test-NetConnection 10.10.254.101 -Port 5432
 ```
 
-If this fails while PostgreSQL is listening on `10.10.205.101:5432`, troubleshoot routing and firewalls before changing PostgreSQL.
+If this fails while PostgreSQL is listening on `10.10.254.101:5432`, troubleshoot routing and firewalls before changing PostgreSQL.
 
 ## Public access
 
 A router such as MikroTik can perform destination NAT:
 
 ```text
-Public IP:external-port -> 10.10.205.101:5432
+Public IP:external-port -> 10.10.254.101:5432
 ```
 
 Recommendations:

@@ -1,0 +1,17 @@
+# Private keys and certificate bundles
+*.key
+*.p12
+*.pfx
+private.pem
+server.key
+
+# Local secrets / environment
+.env
+.env.*
+*.secret
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

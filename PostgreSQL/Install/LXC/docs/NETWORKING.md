@@ -63,7 +63,7 @@ If `pg.lightcyber.ru` resolves publicly to the router, LAN clients may require h
 For testing only, an internal client can instead resolve:
 
 ```text
-10.10.205.101 pg.lightcyber.ru
+10.10.254.101 pg.lightcyber.ru
 ```
 
 via split DNS or its hosts file. The hostname must remain `pg.lightcyber.ru` so TLS hostname verification matches the certificate SAN.

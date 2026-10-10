@@ -4,10 +4,10 @@
 # rules that are appropriate for your environment.
 
 # TLS-only access from the VM subnet.
-hostssl    labdb    labuser    10.10.205.0/24       scram-sha-256
+hostssl    labdb    labuser    10.10.254.0/24       scram-sha-256
 
 # TLS-only access from one administrator/test workstation.
-hostssl    labdb    labuser    10.100.100.108/32    scram-sha-256
+hostssl    labdb    labuser    10.10.101.108/32    scram-sha-256
 
 # Prefer explicit /32 entries for Internet clients whenever their public
 # source IPs are stable. Do not use "trust" for remote access.

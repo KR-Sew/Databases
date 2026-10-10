@@ -14,17 +14,17 @@ A reproducible **How-To** for deploying **PostgreSQL 18** inside a **Debian 13**
 
 ```text
 Windows workstation
-10.100.100.108
+10.10.101.108
         |
         | routed TCP/5432
         v
 LXD host (Debian 13)
         |
         | lxdbr0-vm
-        | 10.10.205.253/24
+        | 10.10.254.253/24
         v
 pgsql01
-10.10.205.101/24
+10.10.254.101/24
 PostgreSQL 18 :5432
         |
         +-- labdb
@@ -34,7 +34,7 @@ PostgreSQL 18 :5432
         +-- pg.lightcyber.ru
 ```
 
-For Internet access, a router/firewall can destination-NAT a public TCP port to `10.10.205.101:5432`. Restrict source addresses whenever possible; exposing PostgreSQL to the entire Internet is not recommended.
+For Internet access, a router/firewall can destination-NAT a public TCP port to `10.10.254.101:5432`. Restrict source addresses whenever possible; exposing PostgreSQL to the entire Internet is not recommended.
 
 ## Environment used
 
@@ -42,8 +42,8 @@ For Internet access, a router/firewall can destination-NAT a public TCP port to 
 - **Debian 13** (Trixie) VM
 - **ZFS**-backed `LXD` storage pool: `lxdpool`
 - VM bridge: `lxdbr0-vm`
-- VM address: `10.10.205.101/24`
-- Gateway: `10.10.205.253`
+- VM address: `10.10.254.101/24`
+- Gateway: `10.10.254.253`
 - **PostgreSQL 18.6** from PGDG
 - Database: `labdb`
 - Login role: `labuser`
@@ -91,7 +91,7 @@ lxc exec pgsql01 -- ip -br addr
 lxc exec pgsql01 -- ip route
 ```
 
-The lab VM received `10.10.205.101/24`. Its interface appeared inside the VM as `enp5s0`; predictable interface naming means it does not have to appear as `eth0`.
+The lab VM received `10.10.254.101/24`. Its interface appeared inside the VM as `enp5s0`; predictable interface naming means it does not have to appear as `eth0`.
 
 ## 2. Install PostgreSQL 18 from PGDG
 

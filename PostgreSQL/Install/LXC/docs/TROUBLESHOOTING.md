@@ -129,7 +129,7 @@ sudo -u postgres psql -c "SHOW listen_addresses;"
 Then from the client:
 
 ```powershell
-Test-NetConnection 10.10.205.101 -Port 5432
+Test-NetConnection 10.10.254.101 -Port 5432
 ```
 
 If PostgreSQL listens correctly but the TCP test fails, investigate routing/firewalls rather than `pg_hba.conf`.
@@ -150,7 +150,7 @@ Connect using:
 host=pg.lightcyber.ru
 ```
 
-Connecting to `10.10.205.101` with `verify-full` is not equivalent unless the certificate also contains that IP address as an IP SAN.
+Connecting to `10.10.254.101` with `verify-full` is not equivalent unless the certificate also contains that IP address as an IP SAN.
 
 ## PKCS#12 reports invalid password
 

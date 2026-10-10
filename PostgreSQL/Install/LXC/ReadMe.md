@@ -455,7 +455,7 @@ pg_lsclusters
 For an internal LAN test, if public DNS resolves to the router's public address and hairpin NAT is not configured, temporarily map the hostname on the Windows client:
 
 ```text
-10.10.205.101    pg.lightcyber.ru
+10.10.254.101    pg.lightcyber.ru
 ```
 
 in:
@@ -501,7 +501,7 @@ Public router/firewall
         |
         | dst-NAT + firewall
         v
-10.10.205.101:5432
+10.10.254.101:5432
         |
         +-- hostssl
         +-- SCRAM-SHA-256

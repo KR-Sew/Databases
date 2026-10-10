@@ -4,9 +4,12 @@
 [![PowerShell](https://custom-icon-badges.demolab.com/badge/.-PowerShell-blue.svg?style=flat&logo=powershell-core-eyecatch32&logoColor=white)](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains PowerShell and Bash scripts designed to help DBAs and DevOps engineers automate MS SQL Server tasks, including database provisioning, user management, backup & restore, performance tuning, and security hardening.
+This repository contains PowerShell and Bash scripts designed to help DBAs and DevOps engineers automate MS SQL Server tasks, including database provisioning and management.
 
 ## 🚀 Features
+
+- [Create Stored Procedure](./CreateStoredProcedure.ps1) </p> # Create stored procedure for some task.
+- [Set Firewall Rules](./Set-MSqlFirewallRule.ps1) </p> # Set firewall rules for MS SQL Server instances and serveices
 
 ---
 

@@ -550,3 +550,7 @@ sudo -u postgres psql -c "SHOW listen_addresses;"
 ```
 
 See `docs/TROUBLESHOOTING.md` for the problems encountered while building this lab.
+
+---
+
+🔙 [back to **`PostgreSQL`** repo](../)

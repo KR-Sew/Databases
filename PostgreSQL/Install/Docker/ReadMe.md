@@ -1,4 +1,4 @@
-# <img src="../../Assets/pics/icons8-postgresql-48.svg" width="25" alt="PostgreSQL Management Scripts"> PostgreSQL Management Scripts
+# <img src="../../../Assets/pics/icons8-postgresql-48.svg" width="25" alt="PostgreSQL Automated Installation"> PostgreSQL docker container installation
 
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white&logoSize=auto&labelColor=5197e1)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://hub.docker.com/)
@@ -7,7 +7,7 @@
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white&logoSize=auto&labelColor=black)](https://www.gnu.org/software/bash/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository provides PostgreSQL automation scripts for DBAs, developers, and DevOps teams to backups data. Works with PostgreSQL 12+ on Linux, Windows, and Docker.
+This repository provides PostgreSQL automation scripts for DBAs, developers, and DevOps teams to streamline database installation. Works with PostgreSQL 12+ on Linux, Windows, and Docker.
 
 ## 🚀 Features
 

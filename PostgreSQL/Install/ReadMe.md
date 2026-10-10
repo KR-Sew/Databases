@@ -17,4 +17,4 @@ This repository provides PostgreSQL automation scripts for DBAs, developers, and
 
 ---
 
-🔙 [back to PostgreSQL repo](../)
+🔙 [back to **`PostgreSQL`** repo](../)

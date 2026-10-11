@@ -17,6 +17,11 @@ This repository contains a set of PowerShell and Bash scripts designed for who's
 - <img src="./Assets/pics/icons8-postgresql-48.svg" width="20" alt="PostgreSQL"> [**`PostgreSQL`**](./PostgreSQL/ReadMe.md) – Automation scripts for PostgreSQL installation, user management, backup, and performance tuning.
 
 - <img src="./Assets/pics/icons8-mysql-48.svg" width="20" alt="MySQL"> [**`MySQL & MariaDB`**](./MySQL/ReadMe.md) – Scripts for deploying, managing, securing, and optimizing MySQL/MariaDB databases.
+  - Automation scripts for installation, user management, backup, and performance tuning.
+  - <img src="./Assets/pics/icons8-mysql-48.svg" width="25" alt="MySQL"> [**`Install & Update`**](./MySQL/Install/ReadMe.md) → Automate installation or updating processes.
+  - <img src="./Assets/pics/icons8-mysql-48.svg" width="25" alt="MySQL"> [**`Management and Backup`**](./MySQL/Manage/ReadMe.md) → Manage and backup database data.
+  - <img src="./Assets/pics/icons8-mysql-48.svg" width="25" alt="MySQL"> [**`Performance Tuning`**](./MySQL/Perf/ReadMe.md) → Index optimization, query performance monitoring, and logging.
+  - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb"> [**`User account management`**](./NoSQL/UAC/ReadMe.md) → Create, modify, and remove users, roles, and permissions.
 
 - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb">[**`MongoDB`**](./NoSQL/ReadMe.md)
   - Automation scripts for installation, user management, backup, and performance tuning.

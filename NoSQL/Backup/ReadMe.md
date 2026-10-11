@@ -10,12 +10,21 @@ This repository contains scripts designed to automate **MongoDB** backup & resto
 ## 🚀 Features
 
 - 📂 [Backup & Restore](./Backup/) → Scheduled backups with retention policies.
+
     - [**`backup_cluster`**](./backup_cluster.sh)
       - backup Atlas cluster databases bash script
+      - How to run:
+  
+      ```bash
+         sudo chmod +x ./backup_cluster.sh
+         sudo bash ./backup_cluster.sh
+      ```
+
     - [**`backup_mongodb`**](./backup_mongodb.sh)
       - backup **MongoDb** database bash script
-    - [Create a **DB** snapshot](./Create_Snapshot_Dump.sh)
-    - [Create **LVM** cloud snapshot](./Create_SnapShot_LVM-Cloud.sh)
+    - [**`create_snapsho_dump`**](./Create_Snapshot_Dump.sh)
+    - create snapshot or dump database bash script
+    - [**`create_snapshot_lvm_cloud`**](./Create_SnapShot_LVM-Cloud.sh)
 
 ---
 

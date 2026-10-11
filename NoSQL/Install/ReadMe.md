@@ -28,8 +28,10 @@ This repository contains **PowerShell** and **Bash** scripts designed to help **
   [![Debian](https://img.shields.io/badge/Debian-607078?style=flat&logo=debian&logoColor=white&logoSize=auto&labelColor=a81d33)](https://www.debian.org/)
   [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-  - 📂 [update-mongoAtlas.sh](./update-mongoAtlas.sh) → this is `bash` script to `Install`/`Update` **Mongo Atlas CLI** on **Debian**/**Ubuntu**.
-  - 📂 [update-mongoShell.sh](./update-mongoShell.sh) → this is `bash` script to `Install`/`Update` **Mongo Shell CLI** on **Debian**/**Ubuntu**.
+  - 📂 [**`update-mongoAtlas`**](./update-mongoAtlas.sh)
+    - → this is `bash` script to `Install`/`Update` **Mongo Atlas CLI** on **Debian**/**Ubuntu**.
+  - 📂 [**`update-mongoShell`**](./update-mongoShell.sh)
+    - → this is `bash` script to `Install`/`Update` **Mongo Shell CLI** on **Debian**/**Ubuntu**.
   - How to run:
   
    ```bash

@@ -74,8 +74,15 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
 
 # ---------- Current Version ----------
 if command -v atlas >/dev/null 2>&1; then
-    CURRENT_VERSION="$(atlas version 2>/dev/null | head -n1 || true)"
-    log_info "Installed version: $CURRENT_VERSION"
+
+    CURRENT_VERSION="$(atlas --version 2>/dev/null || true)"
+
+    if [[ -n "$CURRENT_VERSION" ]]; then
+        log_info "Installed version: $CURRENT_VERSION"
+    else
+        log_warn "Atlas CLI exists but its version could not be detected."
+    fi
+
 else
     log_warn "MongoDB Atlas CLI is not installed."
 fi

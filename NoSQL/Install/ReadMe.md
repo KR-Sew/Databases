@@ -21,8 +21,10 @@ This repository contains **PowerShell** and **Bash** scripts designed to help **
   [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)](https://docs.microsoft.com/en-us/powershell/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-  - 📂 [Update-MongoDBAtlasCli.ps](./Update-MongoDBAtlasCli.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
-  - 📂 [Update-MongoShell.ps1](./Update-MongoShell.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Shell** on **Windows**.
+  - 📂 [**`Update-MongoDBAtlasCli`**](./Update-MongoDBAtlasCli.ps1)
+    - → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
+  - 📂 [**`Update-MongoShell`**](./Update-MongoShell.ps1)
+    - → this is `powershell` script to `Install`/`Update` **Mongo Shell** on **Windows**.
 - For **Debian/Ubuntu**:
   
   [![Debian](https://img.shields.io/badge/Debian-607078?style=flat&logo=debian&logoColor=white&logoSize=auto&labelColor=a81d33)](https://www.debian.org/)

@@ -13,9 +13,9 @@ This repository contains scripts designed to automate **MongoDB** or **NoSQL** m
   - → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
 - 📂 [**`Update-MongoShell`**](./Update-MongoShell.ps1)
   - → this is `powershell` script to `Install`/`Update` **Mongo Shell** on **Windows**.
-- 📂 [**`update-mongoAtlas`**](./update-mongoAtlas.sh)
+- 📂 [**`install-mongoAtlas`**](./Update_Install/install_mongoAtlas.sh)
   - → this is `bash` script to `Install`/`Update` **Mongo Atlas CLI** on **Debian**/**Ubuntu**.
-- 📂 [**`update-mongoShell`**](./update-mongoShell.sh) 
+- 📂 [**`install-mongoShell`**](./Update_Install/install_mongoShell.sh) 
   - → this is `bash` script to `Install`/`Update` **Mongo Shell CLI** on **Debian**/**Ubuntu**.
 
 ---

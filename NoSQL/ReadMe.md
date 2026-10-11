@@ -9,11 +9,11 @@ This repository contains scripts designed to help DBAs and DevOps engineers auto
 
 ## 🚀 Features
 
-- 📂 [Automated NoSQL Installation](./Install/) (Windows, Linux, Docker)
-- 📂 [Database Management](./Manage/) → Create, drop, migrate databases.
-- 📂 [User & Role Management](./UAC/) → Automate user access control.
-- 📂 [Backup & Restore](./Backup/) → Scheduled backups with retention policies.
-- 📂 [Performance Tuning](./Perf/) → Optimize indexes, analyze query performance.
+- 📂 [Automated NoSQL Installation](./Install/ReadMe.md) (Windows, Linux, Docker)
+- 📂 [Database Management](./Manage/ReadMe.md) → Create, drop, migrate databases.
+- 📂 [User & Role Management](./UAC/ReadMe.md) → Automate user access control.
+- 📂 [Backup & Restore](./Backup/ReadMe.md) → Scheduled backups with retention policies.
+- 📂 [Performance Tuning](./Perf/ReadMe.md) → Optimize indexes, analyze query performance.
 
 ---
 

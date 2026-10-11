@@ -27,13 +27,32 @@ This folder contains scripts designed to automate updating or installing **Mongo
   [![Debian](https://img.shields.io/badge/Debian-607078?style=flat&logo=debian&logoColor=white&logoSize=auto&labelColor=a81d33)](https://www.debian.org/)
   [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-  - 📂 [**`update-mongoAtlas`**](./update-mongoAtlas.sh)
+  - 📂 [**`install-mongoAtlas`**](./install_mongoAtlas.sh)
     - → this is `bash` script to `Install`/`Update` **Mongo Atlas CLI** on **Debian**/**Ubuntu**.
-  - 📂 [**`update-mongoShell`**](./update-mongoShell.sh)
-    - → this is `bash` script to `Install`/`Update` **Mongo Shell CLI** on **Debian**/**Ubuntu**.
+  - 📂 [**`install-mongoShell`**](./install_mongoShell.sh)
+    - → this is `bash` script to `Install`/`Update` **Mongo Shell CLI** on **Debian**/**Ubuntu**
+  - How-to use these scripts:
+    - make them executable:
 
+     ```bash
+       sudo chmod +x ./install_mongoAtlas.sh
+       sudo chmod +x ./install_mongoShell.sh
+     ```
 
+    - check versions `--check` without modifying anything you can choose `jq` or `awk`
 
+     ```bash
+       ./install_mongoAtlas.sh --check -jq
+       ./install_mongoShell.sh --check -awk
+     ```
+
+    - install or update, also can be used with either `jq` or `awk` keys
+
+     ```bash  
+       sudo ./install_mongoAtlas.sh -jq
+       sudo ./install_mongoShell.sh -awk
+     ```
+  
 ---
 
 🔙 [back to **`Databases`** repo](../)

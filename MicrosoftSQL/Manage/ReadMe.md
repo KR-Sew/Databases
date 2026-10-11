@@ -13,4 +13,4 @@ This repository contains PowerShell and Bash scripts designed to help DBAs and D
 
 ---
 
-🔙 [back to MS SQL repo](../)
+🔙 [back to **`MS SQL`** repo](../)

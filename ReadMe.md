@@ -8,15 +8,7 @@
 
 ## PostgreSQL <img src="./Assets/pics/icons8-postgresql-48.svg" width="28" alt="PostgreSQL server">  MS SQL Server <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="28" alt="MS SQL server"> and MySQL <img src="./Assets/pics/icons8-mysql-48.svg" width="35" alt="MySQL">
 
-This repository contains a set of PowerShell and Bash scripts designed for database administrators (DBAs), DevOps engineers, and system administrators to automate database maintenance, backup, and monitoring. These scripts support PostgreSQL and Microsoft SQL Server (MSSQL), working across Windows and Linux environments
-
-### 🚀 Features
-
-- ✅ Database Backup & Restore → Automate full/differential backups and scheduled restores.
-- ✅ User & Role Management → Create, modify, and remove users, roles, and permissions.
-- ✅ Performance Tuning → Index optimization, query performance monitoring, and logging.
-- ✅ Replication & High Availability → Automate replication setup and health checks.
-- ✅ Cross-Platform Support → PowerShell for Windows, Bash for Linux/macOS.
+This repository contains a set of PowerShell and Bash scripts designed for who's working with database to automate database maintenance, backup, and monitoring. These scripts support PostgreSQL and Microsoft SQL Server (MSSQL), working across Windows and Linux environments
 
 ### 🗄️ Available Database Engines
 
@@ -25,10 +17,10 @@ This repository contains a set of PowerShell and Bash scripts designed for datab
 - <img src="./Assets/pics/icons8-mysql-48.svg" width="20" alt="MySQL"> [MySQL & MariaDB](./MySQL/ReadMe.md) – Scripts for deploying, managing, securing, and optimizing MySQL/MariaDB databases.
 - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb">[**`MongoDB`**](./NoSQL/ReadMe.md)
   - Automation scripts for installation, user management, backup, and performance tuning.
-  - ✅ [**`Install & Update`**](./NoSQL/Install/ReadMe.md) → Automate installation or updating processes.
-  - ✅ [**`Management`**](./NoSQL/Manage/ReadMe.md) → 
-  - ✅ [**`Performance Tuning`**](./NoSQL/Perf/ReadMe.md) → Index optimization, query performance monitoring, and logging.
-  - ✅ [**`User account management`**](./NoSQL/UAC/ReadMe.md) → Create, modify, and remove users, roles, and permissions.
+  - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb"> [**`Install & Update`**](./NoSQL/Install/ReadMe.md) → Automate installation or updating processes.
+  - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb"> [**`Management and Backup`**](./NoSQL/Manage/ReadMe.md) → Manage and backup database data.
+  - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb"> [**`Performance Tuning`**](./NoSQL/Perf/ReadMe.md) → Index optimization, query performance monitoring, and logging.
+  - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb"> [**`User account management`**](./NoSQL/UAC/ReadMe.md) → Create, modify, and remove users, roles, and permissions.
 
 ---
 

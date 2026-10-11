@@ -1,0 +1,58 @@
+# <img src="../../../Assets/pics/MongoDB.svg" width="35" alt="MS SQL server management scripts"> MongoDB Atlas and MongoDB Shell CLI update
+
+[![MongoDB](https://img.shields.io/badge/MongoDB-004d39?style=flat&logo=mongodb&logoColor=white&logoSize=auto&labelColor=00e600)](https://www.mongodb.com/)
+[![Debian](https://img.shields.io/badge/Debian-607078?style=flat&logo=debian&logoColor=white&logoSize=auto&labelColor=a81d33)](https://www.debian.org/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+## 🚀 Features
+
+This folder contains scripts designed to automate updating or installing **MongoDB Atlas** and **MongoShell** CLI.
+
+## 🚀 Updating/Installing Mongo Shell CLI and Mongo Atlas CLI on Windows/Linux:
+
+- For **Windows systems**:
+
+  [![Windows Server](https://custom-icon-badges.demolab.com/badge/Windows%20Server-Microsoft-0078D6?style=flat&logo=ms-windows-server&logoColor=white)](https://www.microsoft.com/en-us/windows-server/)
+  [![PowerShell](https://custom-icon-badges.demolab.com/badge/.-PowerShell-blue.svg?style=flat&logo=powershell-core-eyecatch32&logoColor=white)](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)
+  [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)](https://docs.microsoft.com/en-us/powershell/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+  - 📂 [**`Update-MongoDBAtlasCli`**](./Update-MongoDBAtlasCli.ps1)
+    - → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
+  - 📂 [**`Update-MongoShell`**](./Update-MongoShell.ps1)
+    - → this is `powershell` script to `Install`/`Update` **Mongo Shell** on **Windows**.
+- For **Debian/Ubuntu**:
+  
+  [![Debian](https://img.shields.io/badge/Debian-607078?style=flat&logo=debian&logoColor=white&logoSize=auto&labelColor=a81d33)](https://www.debian.org/)
+  [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+  - 📂 [**`install-mongoAtlas`**](./install_mongoAtlas.sh)
+    - → this is `bash` script to `Install`/`Update` **Mongo Atlas CLI** on **Debian**/**Ubuntu**.
+  - 📂 [**`install-mongoShell`**](./install_mongoShell.sh)
+    - → this is `bash` script to `Install`/`Update` **Mongo Shell CLI** on **Debian**/**Ubuntu**
+  - How-to use these scripts:
+    - make them executable:
+
+     ```bash
+       sudo chmod +x ./install_mongoAtlas.sh
+       sudo chmod +x ./install_mongoShell.sh
+     ```
+
+    - check versions `--check` without modifying anything you can choose `jq` or `awk`
+
+     ```bash
+       ./install_mongoAtlas.sh --check -jq
+       ./install_mongoShell.sh --check -awk
+     ```
+
+    - install or update, also can be used with either `jq` or `awk` keys
+
+     ```bash  
+       sudo ./install_mongoAtlas.sh -jq
+       sudo ./install_mongoShell.sh -awk
+     ```
+  
+---
+
+🔙 [back to **`Databases`** repo](../)

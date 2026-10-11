@@ -69,53 +69,116 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
     curl \
     wget \
     ca-certificates \
-    tar
+    tar \
+    jq
 
 # ---------- Current Version ----------
 if command -v atlas >/dev/null 2>&1; then
-    CURRENT_VERSION="$(atlas version 2>/dev/null | head -n1 || true)"
-    log_info "Installed version: $CURRENT_VERSION"
+
+    CURRENT_VERSION="$(atlas --version 2>/dev/null || true)"
+
+    if [[ -n "$CURRENT_VERSION" ]]; then
+        log_info "Installed version: $CURRENT_VERSION"
+    else
+        log_warn "Atlas CLI exists but its version could not be detected."
+    fi
+
 else
     log_warn "MongoDB Atlas CLI is not installed."
 fi
 
 # ---------- Detect Latest Version ----------
-
 log_info "Detecting latest Atlas CLI version from GitHub..."
 
-RAW_TAG="$(
-    curl -fsSL https://api.github.com/repos/mongodb/mongodb-atlas-cli/releases/latest \
-    | jq -r '.tag_name'
+RELEASE_API="https://api.github.com/repos/mongodb/mongodb-atlas-cli/releases/latest"
+
+RELEASE_JSON="$(curl -fsSL \
+    --connect-timeout 10 \
+    --max-time 30 \
+    "$RELEASE_API")"
+
+RAW_TAG="$(jq -r '.tag_name // empty' <<< "$RELEASE_JSON")"
+
+if [[ -z "$RAW_TAG" ]]; then
+    log_error "Unable to detect latest release tag."
+    exit 1
+fi
+
+# Support:
+#   atlascli/v1.55.0
+#   v1.59.1
+#   1.59.1
+
+LATEST_VERSION="${RAW_TAG#atlascli/}"
+LATEST_VERSION="${LATEST_VERSION#v}"
+
+if [[ ! "$LATEST_VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+    log_error "Unexpected release version: $LATEST_VERSION"
+    exit 1
+fi
+
+log_info "Raw tag        : $RAW_TAG"
+log_info "Latest version : $LATEST_VERSION"
+
+# ---------- Find Release Asset ----------
+ASSET_NAME="mongodb-atlas-cli_${LATEST_VERSION}_linux_${PKG_ARCH}.tar.gz"
+
+log_info "Searching GitHub release assets..."
+log_info "Expected asset: $ASSET_NAME"
+
+DOWNLOAD_URL="$(
+    jq -r --arg name "$ASSET_NAME" \
+        '.assets[]
+         | select(.name == $name)
+         | .browser_download_url' \
+        <<< "$RELEASE_JSON"
 )"
 
-if [[ -z "$RAW_TAG" || "$RAW_TAG" == "null" ]]; then
-    log_error "Unable to detect latest version tag."
+if [[ -z "$DOWNLOAD_URL" ]]; then
+    log_error "No matching Linux archive found in this release."
+
+    log_info "Available Linux archives:"
+
+    jq -r '
+        .assets[]
+        | select(.name | test("linux.*tar.gz$"))
+        | "  " + .name
+    ' <<< "$RELEASE_JSON"
+
     exit 1
 fi
 
-LATEST_VERSION="$(echo "$RAW_TAG" | sed 's#atlascli/v##')"
+log_ok "Matching release asset found."
 
-log_info "Raw tag: $RAW_TAG"
-log_info "Latest version: $LATEST_VERSION"
+# ---------- Download ----------
+ARCHIVE_FILE="$TMP_DIR/$ASSET_NAME"
 
-ARCHIVE_FILE="$TMP_DIR/mongodb-atlas-cli_${LATEST_VERSION}_linux_${PKG_ARCH}.tar.gz"
-
-DOWNLOAD_URL="https://github.com/mongodb/mongodb-atlas-cli/releases/download/${RAW_TAG}/mongodb-atlas-cli_${LATEST_VERSION}_linux_${PKG_ARCH}.tar.gz"
-
-#LATEST_VERSION="$(
-#    curl -fsSL https://api.github.com/repos/mongodb/mongodb-atlas-cli/releases/latest \
-#    | grep '"tag_name":' \
-#    | awk -F'"' '{print $4}' \
-#    | sed 's#atlascli/v##'
-#)"
-
-log_info "Downloading package..."
+log_info "Downloading Atlas CLI..."
 log_info "$DOWNLOAD_URL"
 
-if ! wget --spider -q "$DOWNLOAD_URL"; then
-    log_error "Package URL is unavailable."
+wget --tries=3 \
+    --timeout=30 \
+    --show-progress \
+    -O "$ARCHIVE_FILE" \
+    "$DOWNLOAD_URL"
+
+if [[ ! -s "$ARCHIVE_FILE" ]]; then
+    log_error "Downloaded archive is empty."
     exit 1
 fi
+
+log_ok "Download completed."
+
+# ---------- Verify Archive ----------
+log_info "Checking archive integrity..."
+
+if tar -tzf "$ARCHIVE_FILE" >/dev/null; then
+    log_ok "Archive structure is valid."
+else
+    log_error "Downloaded archive is invalid."
+    exit 1
+fi
+
 
 wget -q --show-progress \
     -O "$ARCHIVE_FILE" \

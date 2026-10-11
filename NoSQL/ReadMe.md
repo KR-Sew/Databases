@@ -5,16 +5,16 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains scripts designed to help DBAs and DevOps engineers automate MongoDB NoSQL tasks, including database provisioning, user management, backup & restore, performance tuning, and security hardening.
+This repository contains scripts designed to help automate **MongoDB** and **NoSQL** tasks, including database provisioning, user management, backup & restore, performance tuning, and security hardening.
 
 ## 🚀 Features
 
-- 📂 [Automated NoSQL Installation](./Install/) (Windows, Linux, Docker)
-- 📂 [Database Management](./Manage/) → Create, drop, migrate databases.
-- 📂 [User & Role Management](./UAC/) → Automate user access control.
-- 📂 [Backup & Restore](./Backup/) → Scheduled backups with retention policies.
-- 📂 [Performance Tuning](./Perf/) → Optimize indexes, analyze query performance.
+- 📂 [Automated **`NoSQL`** Installation](./Install/ReadMe.md) (**Windows**, **Linux**,**LXC** and **Docker**)
+- 📂 [Database Management](./Manage/ReadMe.md) → Create, drop, migrate databases.
+- 📂 [User & Role Management](./UAC/ReadMe.md) → Automate user access control.
+- 📂 [Backup & Restore](./Backup/ReadMe.md) → Scheduled backups with retention policies.
+- 📂 [Performance Tuning](./Perf/ReadMe.md) → Optimize indexes, analyze query performance.
 
 ---
 
-🔙 [back to Databases repo](../)
+🔙 [back to **`Databases`** repo](../)

@@ -5,15 +5,19 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains scripts designed to help DBAs and DevOps engineers automate MongoDB management.
+This repository contains scripts designed to automate **MongoDB** or **NoSQL** management.
 
 ## 🚀 Features
 
-- 📂 [Update-MongoDBAtlasCli.ps](./Update-MongoDBAtlasCli.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
-- 📂 [Update-MongoShell.ps1](./Update-MongoShell.ps1) → this is `powershell` script to `Install`/`Update` **Mongo Shell** on **Windows**.
-- 📂 [update-mongoAtlas.sh](./update-mongoAtlas.sh) → this is `bash` script to `Install`/`Update` **Mongo Atlas CLI** on **Debian**/**Ubuntu**.
-- 📂 [update-mongoShell.sh](./update-mongoShell.sh) → this is `bash` script to `Install`/`Update` **Mongo Shell CLI** on **Debian**/**Ubuntu**.
+- 📂 [**`Update-MongoDBAtlasCli`**](./Update-MongoDBAtlasCli.ps1)
+  - → this is `powershell` script to `Install`/`Update` **Mongo Atlas CLI** on **Windows**.
+- 📂 [**`Update-MongoShell`**](./Update-MongoShell.ps1)
+  - → this is `powershell` script to `Install`/`Update` **Mongo Shell** on **Windows**.
+- 📂 [**`update-mongoAtlas`**](./update-mongoAtlas.sh)
+  - → this is `bash` script to `Install`/`Update` **Mongo Atlas CLI** on **Debian**/**Ubuntu**.
+- 📂 [**`update-mongoShell`**](./update-mongoShell.sh) 
+  - → this is `bash` script to `Install`/`Update` **Mongo Shell CLI** on **Debian**/**Ubuntu**.
 
 ---
 
-🔙 [back to Databases repo](../)
+🔙 [back to **`Databases`** repo](../)

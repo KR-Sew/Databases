@@ -5,7 +5,7 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains scripts designed to help DBAs and DevOps engineers automate MongoDB NoSQL tasks, including user management and security hardening
+This repository contains scripts designed to help automate **MongoDB** or **NoSQL** tasks, such as user management and security hardening
 
 ## 🚀 Features
 
@@ -13,4 +13,4 @@ This repository contains scripts designed to help DBAs and DevOps engineers auto
 
 ---
 
-🔙 [back to Databases repo](../)
+🔙 [back to **`Databases`** repo](../)

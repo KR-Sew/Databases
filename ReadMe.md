@@ -12,9 +12,12 @@ This repository contains a set of PowerShell and Bash scripts designed for who's
 
 ### 🗄️ Available Database Engines
 
-- <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="20" alt="MS SQL server"> [MS SQL Server](./MicrosoftSQL/ReadMe.md) – Scripts for installing, managing, backing up, and optimizing Microsoft SQL Server on Windows, Linux, and Docker.
-- <img src="./Assets/pics/icons8-postgresql-48.svg" width="20" alt="PostgreSQL"> [PostgreSQL](./PostgreSQL/ReadMe.md) – Automation scripts for PostgreSQL installation, user management, backup, and performance tuning.
-- <img src="./Assets/pics/icons8-mysql-48.svg" width="20" alt="MySQL"> [MySQL & MariaDB](./MySQL/ReadMe.md) – Scripts for deploying, managing, securing, and optimizing MySQL/MariaDB databases.
+- <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="20" alt="MS SQL server"> [**`MS SQL Server`**](./MicrosoftSQL/ReadMe.md) – Scripts for installing, managing, backing up, and optimizing Microsoft SQL Server on Windows, Linux, and Docker.
+
+- <img src="./Assets/pics/icons8-postgresql-48.svg" width="20" alt="PostgreSQL"> [**`PostgreSQL`**](./PostgreSQL/ReadMe.md) – Automation scripts for PostgreSQL installation, user management, backup, and performance tuning.
+
+- <img src="./Assets/pics/icons8-mysql-48.svg" width="20" alt="MySQL"> [**`MySQL & MariaDB`**](./MySQL/ReadMe.md) – Scripts for deploying, managing, securing, and optimizing MySQL/MariaDB databases.
+
 - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb">[**`MongoDB`**](./NoSQL/ReadMe.md)
   - Automation scripts for installation, user management, backup, and performance tuning.
   - <img src="./Assets/pics/MongoDB.svg" width="20" alt="MongoDb"> [**`Install & Update`**](./NoSQL/Install/ReadMe.md) → Automate installation or updating processes.

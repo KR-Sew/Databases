@@ -8,8 +8,10 @@ This repository contains PowerShell and Bash scripts designed to help DBAs and D
 
 ## 🚀 Features
 
-- [Create Stored Procedure](./CreateStoredProcedure.ps1) </p> # Create stored procedure for some task.
-- [Set Firewall Rules](./Set-MSqlFirewallRule.ps1) </p> # Set firewall rules for MS SQL Server instances and serveices
+- [**`CreateStoredProcedure`**](./CreateStoredProcedure.ps1)
+  - Create stored procedure for some task.
+- [**`Set-FirewallRules`**](./Set-MSqlFirewallRule.ps1)
+  - Set firewall rules for MS SQL Server instances and serveices
 
 ---
 

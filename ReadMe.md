@@ -14,10 +14,10 @@ This repository contains a set of PowerShell and Bash scripts designed for who's
 
 - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MS SQL server"> [**`MS SQL Server`**](./MicrosoftSQL/ReadMe.md) – Scripts for installing, managing, backing up, and optimizing Microsoft SQL Server on Windows, Linux, and Docker.
   - Automation scripts for installation, user management, backup, and performance tuning.
-  - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Install & Update`**](./MySQL/Install/ReadMe.md) → Automate installation or updating processes.
-  - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Management and Backup`**](./PostgreSQL/Manage/ReadMe.md) → Manage and backup database data.
-  - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Performance Tuning`**](./PostgreSQL/Perf/ReadMe.md) → Index optimization, query performance monitoring, and logging.
-  - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`User account management`**](./PostgreSQL/UAC/ReadMe.md) → Create, modify, and remove users, roles, and permissions.
+  - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Install & Update`**](./MicrosoftSQL/Install/ReadMe.md) → Automate installation or updating processes.
+  - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Management and Backup`**](./MicrosoftSQL/Manage/ReadMe.md) → Manage and backup database data.
+  - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Performance Tuning`**](./MicrosoftSQL/Perf/ReadMe.md) → Index optimization, query performance monitoring, and logging.
+  - <img src="./Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`User account management`**](./MicrosoftSQL/UAC/ReadMe.md) → Create, modify, and remove users, roles, and permissions.
 
 - <img src="./Assets/pics/icons8-postgresql-48.svg" width="20" alt="PostgreSQL"> [**`PostgreSQL`**](./PostgreSQL/ReadMe.md) – Automation scripts for PostgreSQL installation, user management, backup, and performance tuning.
   - Automation scripts for installation, user management, backup, and performance tuning.

@@ -10,4 +10,4 @@ This repository contains scripts designed to help DBAs and DevOps engineers auto
 
 ---
 
-🔙 [back to MS SQL repo](../)
+🔙 [back to **`MS SQL`** repo](../)

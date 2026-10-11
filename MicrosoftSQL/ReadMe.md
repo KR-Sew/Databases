@@ -4,16 +4,16 @@
 [![PowerShell](https://custom-icon-badges.demolab.com/badge/.-PowerShell-blue.svg?style=flat&logo=powershell-core-eyecatch32&logoColor=white)](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository provides automated scripts to simplify Microsoft SQL server management, including installation, database creation, backup automation, user role management, and performance optimization.
+This repository provides automated scripts to simplify **Microsoft SQL** server management, including installation, database creation, backup automation, user role management, and performance optimization.
 
 ## 🚀 Features
 
-- 📂 [Automated SQL server Installation](./Install/) (Linux, Windows, Docker)
-- 📂 [Database & Table Management](./Manage/) → Create, drop, manage tables.
-- 📂 [User & Access Control](./UAC/) → Automate user creation and permission settings.
-- 📂 [Backup & Restore](./Backup/) → Automate MySQL database backups with retention.
-- 📂 [Performance Optimization](./Perf/) → Tune queries and optimize indexes.
+- <img src="../Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Automated SQL server Installation`**](./Install/ReadMe.md) (Linux, Windows, Docker)
+- <img src="../Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Database & Table Management`**](./Manage/ReadMe.md) → Create, drop, manage tables.
+- <img src="../Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`User & Access Control`**](./UAC/ReadMe.md) → Automate user creation and permission settings.
+- <img src="../Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Backup & Restore`**](./Backup/ReadMe.md) → Automate MsSQL database backups with retention.
+- <img src="../Assets/pics/icons8-microsoft-sql-server-48.svg" width="25" alt="MsSQL"> [**`Performance Optimization`**](./Perf/ReadMe.md) → Tune queries and optimize indexes.
 
 ---
 
-🔙 [back to Databases repo](../)
+🔙 [back to **`Databases`** repo](../)

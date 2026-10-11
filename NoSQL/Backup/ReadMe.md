@@ -5,7 +5,7 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-607078?style=flat&logo=ubuntu&logoColor=white&logoSize=auto&labelColor=e95420)](https://ubuntu.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains scripts designed to help **DBAs** and **DevOps** engineers automate **MongoDB** backup & restore tasks.
+This repository contains scripts designed to automate **MongoDB** backup & restore tasks.
 
 ## 🚀 Features
 
@@ -17,4 +17,4 @@ This repository contains scripts designed to help **DBAs** and **DevOps** engine
 
 ---
 
-🔙 [back to Databases repo](../)
+🔙 [back to **`Databases`** repo](../)

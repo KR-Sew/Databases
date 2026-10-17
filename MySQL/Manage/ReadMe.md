@@ -6,4 +6,4 @@ This repository provides automated scripts to simplify MySQL and MariaDB server 
 
 ---
 
-🔙 [back to MySQL repo](../)
+🔙 [back to **`MySQL`** repo](../ReadMe.md)
